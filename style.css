@@ -1,0 +1,264 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    background-color: #FAFAFA;
+    background-position: center center;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding-left: 60px;
+}
+
+.list>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+    padding-right: 60px;
+    border-radius: 30px;
+
+}
+
+.About {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.baner {
+    width: 85%;
+    margin: 0 auto;
+    background-image: url(image/Rectangle\ 14.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    display: flex;
+ 
+    height: 617px;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content>h1 {
+    font-size: 67px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.content>p {
+    font-size: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+
+}
+
+#myInput {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#myButton {
+
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+.rest {
+    position: relative;
+}
+
+.rest>img {
+    position: absolute;
+    padding-left: 10px;
+
+}
+
+.bannerone{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bannerone>h1{
+  font-size: 50px;
+  margin-top: 0 ;
+}
+
+.bannerone>p{
+    font-size: 18px;
+}
+
+.mep{
+     display: flex;
+     justify-content: space-around;
+}
+.project{
+    padding-left: 80px; 
+       padding-top: 50px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project>h1{
+    font-size: 50px;
+    margin-top: 0;
+   
+}
+.banglo{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.global{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secondlastbaner{
+    display: flex;
+    justify-content: space-around;
+    height: 577px;
+}
+
+.text{
+    padding-left: 97px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.text > h1{
+    font-size: 48px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.text >p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.book{
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+
+}
+.read{
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+.plus > ul {
+ list-style-type: none;
+ display: flex;
+
+}
+.three{
+    gap: 50px;
+    font-size: 50px;
+    margin-bottom: 0 ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.cos{
+    gap: 80px;
+    margin-top: 0;
+}
+.gentelmen{
+    border-radius: 30px;
+   padding-top: 30px;
+}
+.lastbaner{
+    display: flex;
+    width: 90%;
+    background-image: url(image/Rectangle\ 17.png);
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    height: 507px;
+    background-size: cover;
+    gap: 100px;
+  
+    position: relative;
+}
+
+.lasttext{
+    flex-direction: column;
+    padding-left: 73px;
+    padding-top: 20px;
+}
+
+.lasttext>h1{
+    font-size: 50px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    padding-top: 30px;
+
+}
+
+#myInput {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#myButton {
+
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.lastimg{
+    position: relative;
+}
+.lastimg>img{
+    position: absolute;
+margin-bottom: 0;
+  
+}
