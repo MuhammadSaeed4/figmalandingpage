@@ -43,19 +43,20 @@
 .baner {
     width: 85%;
     margin: 0 auto;
+    align-items: center;
     background-image: url(image/Rectangle\ 14.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 30px;
     display: flex;
- 
-    height: 617px;
+    height: 600px;
+    justify-content: space-between;
 }
 
 .content {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
@@ -95,13 +96,9 @@
 
 .rest {
     position: relative;
+    pa
 }
 
-.rest>img {
-    position: absolute;
-    padding-left: 10px;
-
-}
 
 .bannerone{
     text-align: center;
@@ -216,11 +213,10 @@
     margin: 0 auto;
     border-radius: 20px;
     background-repeat: no-repeat;
-    height: 507px;
+    height: 457px;
     background-size: cover;
-    gap: 100px;
-  
-    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .lasttext{
@@ -258,7 +254,7 @@
     position: relative;
 }
 .lastimg>img{
-    position: absolute;
+
 margin-bottom: 0;
   
 }
